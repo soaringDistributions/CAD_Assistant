@@ -2933,12 +2933,14 @@ wget 'https://sourceforge.net/projects/freeimage/files/Source%20Distribution/3.1
 
 
 
-
+# https://github.com/soaringDistributions/pybullet-2.89
 mkdir "$scriptAbsoluteFolder"/_ref/pybullet
 cd "$scriptAbsoluteFolder"/_ref/pybullet
-rm -f 2.89.tar.gz
-wget 'https://github.com/bulletphysics/bullet3/archive/refs/tags/2.89.tar.gz'
+#rm -f 2.89.tar.gz
+#wget 'https://github.com/bulletphysics/bullet3/archive/refs/tags/2.89.tar.gz'
 
+
+# https://github.com/soaringDistributions/assetimport-4.1.0
 mkdir "$scriptAbsoluteFolder"/_ref/assetimport
 cd "$scriptAbsoluteFolder"/_ref/assetimport
 rm -f v4.1.0.tar.gz
