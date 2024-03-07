@@ -2968,6 +2968,7 @@ cd "$scriptAbsoluteFolder"/_ref/assetimport
 #
 mkdir "$scriptAbsoluteFolder"/_ref/opennurbs
 cd "$scriptAbsoluteFolder"/_ref/opennurbs
+rm -f 'v6.11.18282.01000.zip'
 wget 'https://github.com/mcneel/opennurbs/archive/refs/tags/v6.11.18282.01000.zip'
 
 
