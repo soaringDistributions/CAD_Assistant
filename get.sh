@@ -2943,8 +2943,8 @@ cd "$scriptAbsoluteFolder"/_ref/pybullet
 # https://github.com/soaringDistributions/assetimport-4.1.0
 mkdir "$scriptAbsoluteFolder"/_ref/assetimport
 cd "$scriptAbsoluteFolder"/_ref/assetimport
-rm -f v4.1.0.tar.gz
-wget 'https://github.com/assimp/assimp/archive/refs/tags/v4.1.0.tar.gz'
+#rm -f v4.1.0.tar.gz
+#wget 'https://github.com/assimp/assimp/archive/refs/tags/v4.1.0.tar.gz'
 
 
 
